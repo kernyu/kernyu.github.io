@@ -92,7 +92,7 @@ jobs:
           git commit -am "add execute permission to bin/deploy"
       - name: Set github identifier
         run: |
-          git config --global user.email "kp2417@columbia.edu"
+          git config --global user.email "kernyu@gmail.com"
           git config --global user.name "Kernyu Park"
       - name: Install and Build 🔧
         run: |
