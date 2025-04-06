@@ -6,7 +6,7 @@ subtitle: <a href='https://winshipcancer.emory.edu/'>Emory University. Atlanta.
 
 profile:
   align: right
-  image: IMG_8036.jpg
+  image: IMG_8036.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>HSRB II, Emory University</p>
