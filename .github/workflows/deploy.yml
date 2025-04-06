@@ -90,6 +90,10 @@ jobs:
         run: |
           chmod a+x bin/*
           git commit -am "add execute permission to bin/deploy"
+      - name: Set github identifier
+        run: |
+          git config --global user.email "kp2417@columbia.edu"
+          git config --global user.name "Kernyu Park"
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
